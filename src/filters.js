@@ -3,7 +3,7 @@ const filters = {
     hideCompleted: false
 }
 
-const getFilters = () => filters
+const getFilters = () => filters;
 
 const setFilters = (updates) => {
     if (typeof updates.searchText === 'string') {
@@ -14,4 +14,4 @@ const setFilters = (updates) => {
     }
 }
 
-export { getFilters, setFilters }
+export { getFilters, setFilters };
