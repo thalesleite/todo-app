@@ -1,6 +1,6 @@
-import { renderTodos } from './views';
-import { setFilters } from './filters';
-import { createTodo, loadTodos } from './todos';
+import { renderTodos } from './views.js';
+import { setFilters } from './filters.js';
+import { createTodo, loadTodos } from './todos.js';
 
 renderTodos();
 
