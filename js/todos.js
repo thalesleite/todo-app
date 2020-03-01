@@ -1,3 +1,5 @@
+import './uuid/uuidv4.js';
+
 let todos = [];
 
 // Fetch existing todos from localStorage
